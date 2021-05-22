@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lit CSS with style objects (System UI Specification)</title>
+    <link rel="stylesheet" href="/src/theme.css" />
+    <link rel="stylesheet" href="/src/global.css" />
+    <script type="module" src="/src/CardList/CardList.js"></script>
+  </head>
+  <body>
+    <div class="cards">
+      <card-list heading="Recent activity"></card-list>
+      <card-list heading="Recent activity" variant="wine"></card-list>
+      <card-list heading="Recent activity" variant="gold"></card-list>
+    </div>
+
+    <script type="module">
+      const suffle = (array) => array.sort((a, b) => 0.5 - Math.random());
+
+      const items = [
+        {
+          name: 'Mary Smith',
+          picture: './images/p1.png',
+          city: 'Ngopi Sore',
+          balance: 35000,
+          date: 'Sep 25, 2021',
+        },
+        {
+          name: 'John Williams',
+          picture: './images/p2.png',
+          city: 'Makan Bareng',
+          balance: 35000,
+          date: 'Sep 25, 2021',
+        },
+        {
+          name: 'Alex Hopkins',
+          picture: './images/p3.png',
+          city: 'Ngopi Sore',
+          balance: -35000,
+          date: 'Sep 25, 2021',
+        },
+      ];
+
+      const components = document.querySelectorAll('card-list');
+      [...components].map(
+        (component) => (component.items = suffle([...items]))
+      );
+    </script>
+  </body>
+</html>

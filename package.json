@@ -1,0 +1,16 @@
+{
+  "name": "lit-css-with-style-objects",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.2",
+    "style-object-to-css-string": "^1.0.1"
+  },
+  "devDependencies": {
+    "csstype": "^3.0.8",
+    "vite": "^2.3.3"
+  }
+}

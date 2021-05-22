@@ -1,0 +1,63 @@
+html {
+  --colorWineDark: #463653;
+  --colorWineMedium: #62566c;
+
+  --colorGoldMedium: #eabc8b;
+
+  --colorRedDark: #a40444;
+  --colorRedMedium: #dc065b;
+  --colorRedLight: #e38cd2;
+
+  --colorGrey900: #0c0b0e;
+  --colorGrey800: #433d4d;
+  --colorGrey700: #544f59;
+  --colorGrey600: #756e7c;
+  --colorGrey500: #b8b8b8;
+
+  --colorWineAlpha60: rgba(50, 34, 63, 0.59);
+  --colorGreyAlpha20: rgba(179, 172, 190, 0.2);
+  --colorGreyAlpha10: rgba(50, 34, 63, 0.1);
+
+  --colorLight: #fff;
+
+  /***********************************
+   * COLORS
+   **********************************/
+
+  /* text colors over light background (default) */
+  --textColorBase: var(--colorGrey800);
+  --textColorFaded: var(--colorGrey600);
+  --textColorAlert: var(--colorRedMedium);
+
+  /* text colors over wine background */
+  --textColorBase2: var(--colorLight);
+  --textColorFaded2: var(--colorGrey500);
+  --textColorAlert2: var(--colorRedLight);
+
+  /* text colors over gold background */
+  --textColorBase3: var(--colorGrey900);
+  --textColorFaded3: var(--colorGrey700);
+  --textColorAlert3: var(--colorRedDark);
+
+  /* backgrounds */
+  --bgBody: var(--colorWineMedium);
+
+  /* card backgrounds */
+  --bgCard: var(--colorLight);
+  --bgCard2: var(--colorWineDark);
+  --bgCard3: var(--colorGoldMedium);
+
+  --bgListItemHover: var(--colorGreyAlpha20);
+  --bgListItemHove2: var(--colorWineAlpha60);
+  --bgListItemHove3: var(--colorGreyAlpha10);
+
+  /***********************************
+   * SIZES
+   **********************************/
+  --gridUnit: 0.5rem;
+
+  /* text sizes */
+  --textSizeBase: 1rem; /* 16px */
+  --textSizeMedium: 0.875rem; /* 14px */
+  --textSizeSmall: 0.75rem; /* 12px */
+}

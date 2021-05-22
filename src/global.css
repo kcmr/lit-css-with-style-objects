@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: var(--bgBody);
+  font-family: ui-rounded, 'SF Pro Rounded', system-ui, san-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  padding: calc(var(--gridUnit) * 2);
+}
+
+.cards card-list {
+  margin: calc(var(--gridUnit) * 2);
+  min-width: 352px;
+}
