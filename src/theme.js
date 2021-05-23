@@ -12,16 +12,16 @@ export const theme = {
     bgListItemHover2: 'var(--colorWineAlpha60)',
     bgListItemHover3: 'var(--colorGreyAlpha10)',
 
-    textColorBase: 'var(--colorGrey800)',
-    textColorFaded: 'var(--colorGrey600)',
+    textColorBase: 'var(--colorGrey700)',
+    textColorFaded: 'var(--colorGrey500)',
     textColorAlert: 'var(--colorRedMedium)',
 
     textColorBase2: 'var(--colorLight)',
-    textColorFaded2: 'var(--colorGrey500)',
+    textColorFaded2: 'var(--colorGrey100)',
     textColorAlert2: 'var(--colorRedLight)',
 
     textColorBase3: 'var(--colorGrey900)',
-    textColorFaded3: 'var(--colorGrey700)',
+    textColorFaded3: 'var(--colorGrey500)',
     textColorAlert3: 'var(--colorRedDark)',
   },
   shadows: {
