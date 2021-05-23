@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: var(--bgBody);
-  font-family: ui-rounded, 'SF Pro Rounded', system-ui, san-serif;
+  font-family: ui-rounded, 'SF Pro Rounded', system-ui, sans-serif;
 }
 
 .cards {
