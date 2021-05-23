@@ -13,15 +13,18 @@ export const style = [
     paddingBottom: t.space[4],
     color: get('fg'),
     backgroundColor: get('bg'),
-    fontWeight: 500,
+    fontWeight: 400,
     boxShadow: t.shadows[1],
   }),
 
   css('.heading', {
+    ...styles.textMedium,
     margin: 0,
     marginBottom: t.space[1],
     paddingLeft: t.space[4],
     paddingRight: t.space[4],
+    textTransform: 'uppercase',
+    fontWeight: 'inherit',
   }),
 
   css('ul, li', {
@@ -50,11 +53,6 @@ export const style = [
   css('.faded', {
     [set('faded')]: t.colors.textColorFaded,
     color: get('faded'),
-  }),
-
-  css('.heading', {
-    ...styles.textMedium,
-    textTransform: 'uppercase',
   }),
 
   css('.small', {
